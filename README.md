@@ -16,6 +16,11 @@ If the requirements are unclear, just capture what the point of confusion was, w
  
 **Bonus: Develop, pseudo code or describe in detail how to implement this function into an email messaging system.**
 
+## Endpoints
+- The email controller/endpoint isn't actually working. i.e. it's not sending emails.
+  - It has been included as a sample/pseudo code of how the filtering would be incorporated in a basic email implementation
+- The text filtering endpoints should be the one used for testing the functions asked in the requirements.
+  
 ## Assumptions
 - Text filtering is only needed for email body
 - Text filtering is going to be processed by default (this can be set via a config in the future as necessary)
@@ -28,9 +33,9 @@ If the requirements are unclear, just capture what the point of confusion was, w
 - The provided email sending is a very basic suggestion of sending emails
 - The preferred approach of the candidate is the following:
   1. Receive email requests and queue them to an event bus
-   - This should automatically log the request parameters
+     - This should automatically log the request parameters
   2. Trigger text filter from email request bus
-   - This translates the original email text to a filtered text
+     - This translates the original email text to a filtered text
   3. A request with the filtered text is sent to the email service for the actual sending of email
   
   
