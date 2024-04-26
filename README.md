@@ -1,6 +1,6 @@
-Zywave Technical Assignment 
-Please complete the following technical assignment. You can complete the project in any technology or language you choose. However, the solution must be suitable for a demo and be able to be reviewed at a source code level using standard text editing tools. 
-CLASSIFIED EMAIL FILTER 
+# Zywave Technical Assignment 
+# Please complete the following technical assignment. You can complete the project in any technology or language you choose. However, the solution must be suitable for a demo and be able to be reviewed at a source code level using standard text editing tools. 
+# CLASSIFIED EMAIL FILTER 
 You have been hired by a company to write software to detect potential classified mail being exchanged in non-secure email accounts. Your software will act as a filter to test the incoming email text, detect if the email might be classified, and additionally replace any sensitive text with censored ***** characters. 
 Please write the core code as a function that accepts as parameters: 
 •	a list of classified words/phrases 
