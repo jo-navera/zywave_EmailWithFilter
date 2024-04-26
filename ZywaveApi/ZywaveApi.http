@@ -1,0 +1,6 @@
+@ZywaveApi_HostAddress = http://localhost:5041
+
+GET {{ZywaveApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
